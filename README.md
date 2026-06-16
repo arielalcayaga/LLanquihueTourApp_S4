@@ -10,7 +10,11 @@
 ---
 
 ## 📘 Descripción general del sistema
-Este proyecto corresponde a la Actividad Formativa 3: Realizando validación, excepciones y relaciones entre clases de la asignatura *Desarrollo Orientado a Objetos I*. Se trata de un sistema orientado a objetos desarrollado en Java, cuyo objetivo es modelar y gestionar entidades representativas de un dominio real, aplicando los principios de encapsulamiento, composición y herencia.
+Este proyecto corresponde a la Actividad Formativa 3:  Construyendo una lista de objetos desde archivo de la asignatura *Desarrollo Orientado a Objetos I*. Se trata de un sistema orientado a objetos desarrollado en Java, cuyo objetivo consiste en la lectura de datos desde un archivo .txt
+para instanciar objetos que serán almacenados en una colección del tipo ArrayList. Además,
+se deben aplicar operaciones básicas sobre la colección, tales como recorrido, búsqueda y
+filtrado, con el objetivo de fortalecer la manipulación de estructuras dinámicas y el vínculo
+entre archivos externos y objetos en Java.
 
 El proyecto fue desarrollado a partir de un caso contextualizado, abordando problemáticas reales y proponiendo una solución estructurada, modular y reutilizable.
 
@@ -19,13 +23,11 @@ El proyecto fue desarrollado a partir de un caso contextualizado, abordando prob
 ## 🧱 Estructura general del proyecto
 
 ```plaintext
-css
-CopyEdit
 📁 src/
-├── model/    # Clases de dominio (CentroCultivo, Tour, Producto)         
-├── data/     # Clases para la carga y lectura de archivos .txt  
+├── model/    # Clase de dominio (Tour)         
+├── data/     # Clase para la carga y lectura de archivos .txt  
 ├── ui/       # Clase principal con el método main
-resources/    # Archivos .txt
+resources/    # Archivo .txt
 ````
 
 ---
