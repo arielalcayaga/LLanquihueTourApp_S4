@@ -39,7 +39,7 @@ resources/    # Archivo .txt
 1. Clona el repositorio desde GitHub:
 
 ```bash
-git clone https://github.com/arielalcayaga/Desarrollo-Orientado-a-Objetos-1.git
+git clone https://github.com/arielalcayaga/LLanquihueTourApp_S4.git
 ```
 
 2. Abre el proyecto en IntelliJ IDEA.
