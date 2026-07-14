@@ -1,5 +1,0 @@
-3;Norte;Díficil
-1;Sur;Fácil
-2;Centro;Medio
-1;Este;Díficil
-2;Oeste;Fácil
